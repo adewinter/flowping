@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb-base"],
+  "rules": {
+  },
+  "globals": {
+  	"Atomics": readonly,
+  	"jest": readonly,
+  	"test": readonly,
+  	"expect": readonly,
+  	"beforeEach": readonly,
+  	"describe": readonly,
+  	"it": readonly,
+  	"document": readonly
+  },
+  "env": {
+  	"es6": true
+  }
+}
