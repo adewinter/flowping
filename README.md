@@ -11,7 +11,7 @@ sudo ln -s ~/PATH_TO_THIS_REPO/flowping/flowping.py flowping
 crontab -e
 
 # Enter this to run flowing every 15 minutes:
-*/4 * * * * flowping
+*/15 * * * * flowping
 
 ```
 
